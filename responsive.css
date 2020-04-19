@@ -111,6 +111,11 @@
     margin:0 auto;
     padding:0;
   }
+  
+  .service-wrapper{
+    padding-left:0;
+    padding-right:0;
+  }
 
   .service-left,.service-contents{
     margin:0 auto;
