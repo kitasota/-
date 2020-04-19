@@ -127,7 +127,8 @@
 
   .service-contents{
     width:100%;
-    padding:30px;
+    margin-top:10px;
+    margin-left:20px;
   }
 
   .service-contents h3{
