@@ -78,20 +78,12 @@
   .about-wrapper{
     padding:50px 0 0 0;
   }
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> upgrade
   #sec3{
     margin:0;
     padding:0;
   }
-<<<<<<< HEAD
   
-=======
-
->>>>>>> upgrade
   .skill-wrapper{
     margin-top:0;
   }
@@ -134,16 +126,13 @@
     margin:0 auto;
     width:100%;
   }
-  
+
   .service-contents{
     width:100%;
-<<<<<<< HEAD
     margin-top:10px;
     margin-left:20px;
-=======
     margin-left:20px;
     margin-top:10px;
->>>>>>> upgrade
   }
 
   .service-contents h3{
@@ -223,7 +212,6 @@
       height: 54px;
       opacity: 1;
   }
-<<<<<<< HEAD
   
   .service-contents{
       width:100%;
@@ -234,7 +222,6 @@
     width:350px;
   }
 }
-=======
 
   .service-contents{
     width:100%;
@@ -247,4 +234,3 @@
     width:350px;
   }
 }
->>>>>>> upgrade
