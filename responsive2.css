@@ -1260,6 +1260,10 @@
     border-top: 15px solid rgb(235,185,77);
   }
 
+  .message img{
+    height:100%;
+  }
+
   .message-wrapper h2{
     font-weight:600;
     font-size:18px;
@@ -1725,7 +1729,7 @@
     line-height: 17px;
     font-size:15px;
     margin:0 0 0 0;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
     letter-spacing: 2px;
     width:100%;
   }
@@ -1750,6 +1754,7 @@
     color:#E5E5E5;
     padding:0;
     margin:0;
+    transform: translateX(25px);
   }
 
   .cp_qa .cp_actab .cp_actab-content {
