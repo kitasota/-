@@ -113,7 +113,7 @@
 
   .service{
     flex-direction: column;
-    margin:0 auto;
+    margin:100px auto;
     padding:0;
   }
   
@@ -155,6 +155,10 @@
 
   .fadein p{
     font-size:26px;
+  }
+  
+  .#sec5 h2{
+    padding:0 100px;
   }
 
 
