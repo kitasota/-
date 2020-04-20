@@ -88,6 +88,11 @@
     margin-top:0;
   }
 
+  .skill-wrapper h2{
+    margin-left:100px;
+    margin-right:100px;
+  }
+
   .skills{
     flex-direction:column;
     margin:0 auto;
@@ -157,7 +162,7 @@
     font-size:26px;
   }
   
-  .#sec5 h2{
+  #sec5 h2{
     margin:0 100px;
   }
 
@@ -225,7 +230,6 @@
   .form input,textarea{
     width:350px;
   }
-}
 
   .service-contents{
     width:100%;
