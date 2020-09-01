@@ -143,9 +143,11 @@ header a:hover{
 }
 
 .about-left img{
-  width:280px;
+  width:350px;
+  object-fit: cover;
   height:350px;
   margin-top:50px;
+  border-radius:50%;
 }
 
 .about-left{
@@ -169,7 +171,7 @@ header a:hover{
 h2{
   font-weight:600;
   font-size:40px;
-  border-top:1px solid orangered;
+  border-top:1px solid grey;
   padding-top:50px;
 }
 
@@ -230,7 +232,7 @@ h2{
 }
 
 .service-left img{
-  width:100%;
+  width:80%;
 }
 
 .service-contents{
