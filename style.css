@@ -123,7 +123,6 @@ header a:hover{
 .main-img p{
   font-size:30px;
   color:grey;
-
 }
 
 .about-right h2{
@@ -168,6 +167,22 @@ header a:hover{
   font-size:18px;
 }
 
+.about-right a{
+  color:rgb(255, 77, 77);
+}
+
+.about-right a:hover{
+  color:red;
+}
+
+.fa-youtube{
+  color:red;
+}
+
+.about-right a:hover{
+  color:
+}
+
 h2{
   font-weight:600;
   font-size:40px;
@@ -200,6 +215,11 @@ h2{
 
 .icon img{
   width:60%;
+  height:1;
+}
+
+.bubble_img{
+  padding-bottom:42px;
 }
 
 .text-contents{

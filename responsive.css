@@ -221,6 +221,10 @@
       height: 54px;
       opacity: 1;
   }
+
+  .about-left{
+    transform: translateX(-50px);
+  }
   
   .service-contents{
       width:100%;
