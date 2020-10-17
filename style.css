@@ -218,9 +218,6 @@ h2{
   height:1;
 }
 
-.bubble_img{
-  margin-bottom:40px;
-}
 
 .text-contents{
   font-size:20px;
@@ -228,39 +225,48 @@ h2{
 
 .service-wrapper{
   text-align:center;
-  padding:80px 0 50px 0;
+  padding:80px 100px 50px 100px;
   opacity:0.8;
   margin:0 auto;
 }
 
-.service-wrapper h2{
-  margin-left:100px;
-  margin-right:100px;
-}
 
 .service{
-  display:flex;
-  padding:50px 0 0 0;
+  padding:50px 0 50px 0px;
   margin:0 auto;
   width:100%;
 }
 
+.normal_line{
+  display:flex;
+}
+
+.reverse_line{
+  display:flex;
+  flex-direction: row;
+}
+
 .service-left{
   width:50%;
-  padding-left:150px;
-  margin:0 auto;
 }
 
 .service-left img{
-  width:80%;
+  width:500px;
 }
 
 .service-contents{
   width:50%;
-  padding-left:150px;
   margin:0 auto;
-  text-align: left;
-  padding-left:50px;
+}
+
+.service-heading{
+  text-align:left;
+  padding-left:80px;
+}
+
+.service-list{
+  text-align:left;
+  padding-left:80px;
 }
 
 .service-contents h3{

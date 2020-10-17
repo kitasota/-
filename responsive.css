@@ -1,10 +1,22 @@
+@media screen and (max-width:1150px){
+  .service-left img{
+    width:450px;
+  }
+}
+
 @media screen and (max-width:1024px){
   h2{
     font-size:32px;
   }
 
+  header{
+    height:45px;
+  }
+
   header a{
     font-size:14px;
+    height:45px;
+    line-height:45px;
   }
 
   .main-img h1{
@@ -13,6 +25,10 @@
 
   .main-img p{
     font-size:22px;
+  }
+
+  .skill-wrapper h2{
+    padding-top:100px;
   }
 
   .about-wrapper img{
@@ -24,12 +40,17 @@
     font-size:15px;
   }
 
+
   .icon p{
     font-size:22px;
   }
 
   .text-contents{
     font-size:16px;
+  }
+
+  .service-wrapper h2{
+    padding-top:100px;
   }
 
   .service-contents h3{
@@ -44,8 +65,16 @@
     width:100%;
   }
 
+  .works-wrapper h2{
+    padding-top:100px;
+  }
+
   .works-wrapper p{
     font-size:16px;
+  }
+
+  .form-wrapper h2{
+    padding-top:100px;
   }
 
   .form input,textarea{
@@ -76,22 +105,35 @@
   }
 
   .about-wrapper{
-    padding:50px 0 0 0;
-  }
-
-  #sec3{
+    padding:50px 0 0px 0;
     margin:0;
-    padding:0;
   }
   
   .skill-wrapper{
-    margin-top:0;
+    padding-left:0;
+    padding-right:0;
   }
 
   .skill-wrapper h2{
-    margin-left:100px;
-    margin-right:100px;
+    padding-left:0;
+    padding-right:0;
   }
+
+  .works-wrapper{
+    margin:0;
+    padding:0;
+  }
+
+  .works-wrapper h2{
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .service-wrapper{
+    margin:0;
+    padding:0;
+  }
+
 
   .skills{
     flex-direction:column;
@@ -112,41 +154,57 @@
   }
 
   .service-wrapper{
-    padding-left:0;
-    padding-right:0;
+    width:100%;
+    margin:0 auto;
   }
 
   .service{
-    flex-direction: column;
     margin:100px auto;
     padding:0;
   }
-  
-  .service-wrapper{
-    padding-left:0;
-    padding-right:0;
+
+  .normal_line{
+    flex-direction: column;
+  }
+
+  .reverse_line{
+    flex-direction: column-reverse;
   }
 
   .service-left{
     margin:0 auto;
+    width:80%;
+  }
+
+  .service-left img{
     width:100%;
   }
 
   .service-contents{
     width:100%;
-    margin-top:10px;
-    margin-left:20px;
-    margin-left:20px;
-    margin-top:10px;
+    margin:50px auto 0 auto;
+  }
+
+  .service-heading{
+    margin:0 auto;
+    width:50%;
+    padding-left:0;
+  }
+
+  .service-list{
+    margin:0 auto;
+    width:50%;
+    padding-left:0;
   }
 
   .service-contents h3{
-    font-size:26px;
+    font-size:24px;
   }
 
   .service-contents p{
-    font-size:20px;
+    font-size:16px;
   }
+
 
   .works{
     flex-direction:column;
@@ -161,9 +219,17 @@
   .fadein p{
     font-size:26px;
   }
+
+  .form-wrapper{
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+  }
   
   #sec5 h2{
-    margin:0 100px;
+    margin-left:0;
+    margin-right:0;
   }
 
 
@@ -205,6 +271,7 @@
       padding: 0;
       background :#f4f4f4;
       list-style: none;
+      transform: translateY(-11px);
   }
 
   .menu li {
@@ -244,3 +311,15 @@
     width:350px;
   }
 }
+
+@media screen and (max-width:570px){
+  .service-heading{
+    width:80%;
+  }
+
+  .service-list{
+    width:80%;
+  }
+}
+
+
