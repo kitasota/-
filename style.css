@@ -177,6 +177,13 @@ header a:hover{
 
 .fa-youtube{
   color:red;
+  font-size:28px;
+  padding-left:15px;
+}
+
+.fa-twitter{
+  color:#1EA2F1;
+  font-size:28px;
 }
 
 .about-right a:hover{
