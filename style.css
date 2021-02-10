@@ -338,6 +338,15 @@ h2{
   border-bottom:1px solid red;
 }
 
+.sentences{
+  text-align: left;
+  padding:15px;
+}
+
+.sentences .sentence{
+  font-size:15px;
+}
+
 .fadein p{
   color:white;
   font-size:20px;

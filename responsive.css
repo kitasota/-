@@ -70,7 +70,7 @@
   }
 
   .works-wrapper p{
-    font-size:16px;
+    font-size:14px;
   }
 
   .form-wrapper h2{
@@ -217,7 +217,7 @@
   }
 
   .fadein p{
-    font-size:26px;
+    font-size:18px;
   }
 
   .form-wrapper{
@@ -307,6 +307,8 @@
 
 
 
+
+
   .form input,textarea{
     width:350px;
   }
@@ -315,6 +317,10 @@
 @media screen and (max-width:570px){
   .service-heading{
     width:80%;
+  }
+
+  .sentences{
+    display:none;
   }
 
   .service-list{
